@@ -9,13 +9,20 @@ import { ColorSeparator } from '../../components/colorSeparator';
 
 import { PrincipalContainer } from '../../components/containers/principalContainer';
 import { FooterLinks } from '../../components/footerLinks';
+import { ModalAnuncio } from '../../components/modal';
 import { NavBar } from '../../components/navBar';
 
 import './index.css'
 
 const Landing = () => {
+  const [modalShow, setModalShow] = React.useState(true);
+
   return (
     <PrincipalContainer showSquares>
+      <ModalAnuncio
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+      />
       <CarouselLanding/>
       <ColorSeparator titleSeparator={'EDUCACIÓN SUPERIOR TECNOLÓGICA'} color={'#54c98f'}/>
       <img style={{width:'100%'}} src="https://developer.tecmm.mx/web-tsj-designs/transitionBanner.jpg"/>

@@ -1,0 +1,12 @@
+.separatorTextContainer{
+    border-bottom: 3px solid var(--green);
+}
+
+.separatorTextContainer h1{
+    font-size: 1.3rem;
+    font-family: 'madaniArabicLight';
+    text-align: left;
+    margin: none;
+    padding: none;
+    color:var(--black)
+}
