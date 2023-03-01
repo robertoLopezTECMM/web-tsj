@@ -1,0 +1,19 @@
+.topBannerContainer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1vh;
+
+    background-color: var(--navyBlue);
+}
+
+.squaresTopBannerContainer{
+    width: 100%;
+    height: auto;
+
+}
+
+.squaresTopBannerContainer img{
+    width: 100%;
+}
+
+

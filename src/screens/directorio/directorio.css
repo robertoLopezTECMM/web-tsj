@@ -1,0 +1,25 @@
+.topHeaderContainer{
+    background-color: red;
+    height: 30vh;
+}
+
+#directorioCardTitle{
+    font-family: 'madaniArabicBold';
+    color: var(--navyBlue)!important
+}
+
+#directorioCardSubtitle{
+    font-family: 'madaniArabicMedium';
+    color: var(--blue)!important
+}
+
+#directorioCardTel{
+    font-family: 'madaniArabicLight';
+    margin-bottom: 0px;
+    color: black!important
+}
+
+#directorioCardEmail{
+    font-family: 'madaniArabicLight';
+    color: black!important
+}

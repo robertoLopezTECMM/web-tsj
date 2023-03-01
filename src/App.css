@@ -1,10 +1,82 @@
+:root{
+  --gold:#A7823B;
+  --navyBlue:#33179c;
+  --blue:#308fff;
+  --green:#54c98f;
+  --red:#ff4d63;
+  --orange:#ffae31;
+  --grey:#d8d8d8;
+}
+
+@font-face {
+  font-family: 'madaniArabicBlack';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Black.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicBold';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Bold.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicExtraBold';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Extra-Bold.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicExtraLight';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Extra-Light.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicLight';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Light.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicMedium';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Medium.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicRegular';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Regular.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicSemiBold';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Semi-Bold.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicVariable';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Variable.ttf') ;
+}
+
+@font-face {
+  font-family: 'madaniArabicBlack';
+  src:local("MadaniArabicBlack"), url('./assets/fonts/Madani-Arabic-Black.ttf') ;
+}
+
+
 .App {
   text-align: center;
+  margin: 0% 15% 0% 15%;
+  box-shadow: 12px 0 15px -4px rgba(16, 16, 16, 0.5), -12px 0 8px -4px rgba(16, 16, 16, 0.5);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/* TABLET OR MOBILE */
+@media (max-width: 500px) {
+  .App {
+    text-align: center;
+    margin: 0% 0% 0% 0%;
+    box-shadow: 12px 0 15px -4px rgba(16, 16, 16, 0.5), -12px 0 8px -4px rgba(16, 16, 16, 0.5);
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

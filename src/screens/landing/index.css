@@ -1,0 +1,7 @@
+.middleButton{
+    cursor:pointer
+}
+
+.middleButton:hover{
+    opacity: 0.7;
+}

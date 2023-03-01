@@ -1,0 +1,17 @@
+.typeDenunciasComponentContainer{
+    border: solid 3px var(--blue);
+    margin:1%;
+    padding: 1%;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.typeDenunciasComponentContainer h1{
+    font-family: 'madaniArabicSemiBold';
+    font-size: 2rem;
+}
+
+.typeDenunciasComponentContainer p{
+    font-family: 'madaniArabicLight';
+    font-size: 1rem;
+}

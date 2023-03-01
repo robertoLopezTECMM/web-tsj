@@ -1,0 +1,14 @@
+
+#squaresImg{
+    position:absolute;
+    z-index:2000000;
+    left:15%;
+    width:10%;
+}
+
+/* TABLET OR MOBILE */
+@media (max-width: 500px) {
+    #squaresImg {
+        display: none;
+    }
+  }

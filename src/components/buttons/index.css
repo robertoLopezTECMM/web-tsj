@@ -1,0 +1,28 @@
+.primaryButton{
+    color:white;
+    width:20vh;
+    font-size: 1.5vh;
+    font-family: 'madaniArabicBold';
+    padding: 1%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* TABLET OR MOBILE */
+@media (max-width: 500px) {
+    .primaryButton{
+        color:white;
+        width:50%;
+        height:auto;
+        font-size: 1.5vh;
+        font-family: 'madaniArabicBold';
+        padding: 3%;
+        outline: none;
+        border: none;
+        text-decoration: none;
+    }    
+}
+    

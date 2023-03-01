@@ -1,0 +1,30 @@
+.carouselLandingContainer{
+    position: relative;
+}
+
+.carouselLandingComponent{
+    position: relative;
+}
+
+.carouselButtonsContainer{
+    position:absolute;
+    z-index:1000;
+    right:0%;
+    top:0%;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+/* TABLET OR MOBILE */
+@media (max-width: 500px) {
+    .carouselButtonsContainer{
+        position:relative;
+        z-index:1000;
+        right:0%;
+        justify-content:space-evenly;
+        margin-top: 0.5vh;
+    }
+}
+    
+    
