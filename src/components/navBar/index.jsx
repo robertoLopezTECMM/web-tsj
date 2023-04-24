@@ -8,7 +8,7 @@ import './index.css'
 export const NavBar = () => {
   return (
     <div className='navBarContainer'>
-        <img onClick={()=>window.location.replace('https://tecmm.edu.mx')} src="https://developer.tecmm.mx/web-tsj-designs/topBanner.jpg" style={{ width: '100%'}}/>
+        <img onClick={()=>window.location.replace('https://tecmm.edu.mx')} src="https://tecmm.edu.mx/web-tsj-designs/topBanner.jpg" style={{ width: '100%'}}/>
 
         <Navbar bg="light" expand="lg">
         <Container>
@@ -28,7 +28,7 @@ export const NavBar = () => {
                 <Nav.Link href="https://www.tsj.tecmm.edu.mx/vidaEstudiantil" target='_blank'>VIDA ESTUDIANTIL</Nav.Link>
                 <Nav.Link href="https://www.tsj.tecmm.edu.mx/contacto" target='_blank'>CONTACTO</Nav.Link>
                 {/* <Nav.Link href="https://www.tsj.tecmm.edu.mx/igualdad" target='_blank'>SGIG</Nav.Link> */}
-                <Nav.Link href="https://www.tsj.tecmm.edu.mx/quejasYdenuncias" target='_blank'>QUEJAS Y DENUNCIAS</Nav.Link>
+                <Nav.Link href="/portalDenuncias">QUEJAS Y DENUNCIAS</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Container>

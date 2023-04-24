@@ -7,7 +7,7 @@ export const PrincipalContainer = ({children, showSquares}) => {
     <div>
         {showSquares
           ?
-          <img id="squaresImg" src='https://developer.tecmm.mx/web-tsj-designs/colorsSquares.png'/>
+          <img id="squaresImg" src='https://tecmm.edu.mx/web-tsj-designs/colorsSquares.png'/>
 
           :null
 

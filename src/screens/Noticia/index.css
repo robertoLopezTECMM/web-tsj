@@ -1,0 +1,48 @@
+.noticiaContainer{
+    background-color: ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+}
+
+.titleContainer{
+    
+}
+
+.titleContainer h1{
+    padding: 1%;
+    font-family: 'madaniArabicBold';
+}
+
+.img-imagenPrincipal{
+    width: 50%;
+}
+
+.contenidoNoticia{
+    background-color: ;
+    margin-top:2%;
+}
+
+.contenidoNoticia p{
+    font-family: 'madaniArabicLight';
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.div-imagenesExtra{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+  
+  .div-imagenesExtra img{
+    width: 200px;
+
+    margin: 0.3%;
+    transition: transform .2s; /* Animation */
+    cursor:pointer;
+  }

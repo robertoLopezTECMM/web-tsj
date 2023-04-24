@@ -15,3 +15,37 @@
     font-family: 'madaniArabicLight';
     font-size: 1rem;
 }
+
+
+.formDenunciaComiteEtica{
+    padding:1%
+}
+
+.problemDecription{
+    font-family: 'madaniArabicBold';
+    text-align: left;
+    font-size: 1.5rem;
+
+}
+
+.twoInputsContainer{
+    display: flex;
+}
+
+.formDenuncaInput{
+    width: 100%;
+    margin:5px;
+    border-radius: 5px;
+    border: 2px solid var(--blue);
+    outline: none;
+    font-family: 'madaniArabicLight';
+    font-size: 1.2rem;
+}
+
+.advertenciaAnonimato{
+    font-family: 'madaniArabicBold';
+    text-align: left;
+    font-size: 1.0rem;
+    color: var(--navyBlue);
+    margin-top: 10px;
+}

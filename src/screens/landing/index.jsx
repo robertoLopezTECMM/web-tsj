@@ -19,21 +19,21 @@ const Landing = () => {
 
   return (
     <PrincipalContainer showSquares>
-      <ModalAnuncio
+      {/* <ModalAnuncio
         show={modalShow}
         onHide={() => setModalShow(false)}
-      />
+      /> */}
       <CarouselLanding/>
       <ColorSeparator titleSeparator={'EDUCACIÓN SUPERIOR TECNOLÓGICA'} color={'#54c98f'}/>
-      <img style={{width:'100%'}} src="https://developer.tecmm.mx/web-tsj-designs/transitionBanner.jpg"/>
+      <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/transitionBanner.jpg"/>
       <ColorSeparator titleSeparator={'NOTICIAS #TECSUPERIORJALISCO'} color={'#ff4d63'}/>
       <CarouselNoticias/>
       <ColorSeparator titleSeparator={'DESCUBRE EL #TECSUPERIORJALISCO'} color={'#308fff'}/>
       <div style={{display:'flex', width:'100%'}}>
-        <img onClick={()=>window.open('https://www.plataformadetransparencia.org.mx/', '_blank')} className='middleButton' style={{width:'25%'}} src='https://developer.tecmm.mx/web-tsj-designs/transparenciaButton.jpg'/>
-        <img onClick={()=>window.open('https://sites.google.com/tecmm.edu.mx/convocatorias/inicio', '_blank')} className='middleButton' style={{width:'25%'}} src='https://developer.tecmm.mx/web-tsj-designs/convocatoriasButton.jpg'/>
-        <img  className='middleButton' style={{width:'25%'}} src='https://developer.tecmm.mx/web-tsj-designs/gacetasButton.jpg'/>
-        <img onClick={()=>window.open('https://sites.google.com/tecmm.edu.mx/adquisiciones/licitaciones-2022', '_blank')} className='middleButton' style={{width:'25%'}} src='https://developer.tecmm.mx/web-tsj-designs/licitacionesButton.jpg'/>
+        <img onClick={()=>window.open('https://www.plataformadetransparencia.org.mx/', '_blank')} className='middleButton' style={{width:'25%'}} src='https://tecmm.edu.mx/web-tsj-designs/transparenciaButton.jpg'/>
+        <img onClick={()=>window.open('https://sites.google.com/tecmm.edu.mx/convocatorias/inicio', '_blank')} className='middleButton' style={{width:'25%'}} src='https://tecmm.edu.mx/web-tsj-designs/convocatoriasButton.jpg'/>
+        <img className='middleButton' style={{width:'25%'}} src='https://tecmm.edu.mx/web-tsj-designs/gacetasButton.jpg'/>
+        <img onClick={()=>window.open('https://sites.google.com/tecmm.edu.mx/adquisiciones/licitaciones-2022', '_blank')} className='middleButton' style={{width:'25%'}} src='https://tecmm.edu.mx/web-tsj-designs/licitacionesButton.jpg'/>
       </div>
       <FooterLinks/>
     </PrincipalContainer>

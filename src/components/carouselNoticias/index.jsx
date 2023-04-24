@@ -17,19 +17,23 @@ import "./index.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import useGetNoticias from '../../hooks/useGetNoticias';
+import { Link } from 'react-router-dom';
 
 
 
 
 const ItemNoticia = ({noticia}) =>{
     return(
-        <div className='itemNoticiaContainer'>
-            <div className='itemNoticiaTitleContainer'>
-                <p>{noticia.titulo}</p>
-            </div> 
-            <img style={{width:'100%', objectFit:'cover'}} src={noticia.imagenPrincipal}/>
+        <Link to={{pathname:"/Noticia/"+noticia.pathTitulo}}>
+            <div className='itemNoticiaContainer'>
+                <div className='itemNoticiaTitleContainer'>
+                    <p>{noticia.titulo}</p>
+                </div> 
+                <img style={{width:'100%', objectFit:'cover'}} src={noticia.imagenPrincipal}/>
 
-        </div>
+            </div>
+        </Link>
+
     )
 }
 

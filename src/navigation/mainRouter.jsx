@@ -4,6 +4,8 @@ import { Admision } from '../screens/admision';
 import { Careers } from '../screens/careers';
 import Directorio from '../screens/directorio/directorio';
 import Landing from '../screens/landing';
+import Noticia from '../screens/Noticia/index.jsx';
+
 import { PortalDenuncias } from '../screens/portalDenuncias';
 
 export const MainRouter = () => {
@@ -15,6 +17,8 @@ export const MainRouter = () => {
         <Route path='/admision' element={<Admision/>}/>
         <Route path='/directorio' element={<Directorio/>}/>
         <Route path='/portalDenuncias' element={<PortalDenuncias/>}/>
+        <Route path="/Noticia/:noticiaNombre" element={<Noticia/>}/>
+
     </Routes>
   )
 }

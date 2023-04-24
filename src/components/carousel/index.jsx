@@ -19,17 +19,27 @@ export const CarouselLanding = () => {
         emulateTouch
         className='carouselLandingComponent'
       >
+        <a href='https://developer.tecmm.mx:3318/files/Convocatoria%20PEDD2023.pdf' target='_blank'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/estimuloDocente.jpg" />
+          </div>
+        </a>
+        
         <a href='https://somosjalisco.mx/' target='_blank'>
           <div>
-              
-              <img src="https://tecmm.edu.mx/img/carousel/200_anos_jalisco.jpg" />
-              
+            <img src="https://tecmm.edu.mx/img/carousel/200_anos_jalisco.jpg" />  
           </div>
         </a>
 
         <a href='http://mi.tecmm.mx:3010' target='_blank'>
           <div>
             <img src="https://tecmm.edu.mx/img/carousel/inscripciones_2023.jpg" />
+          </div>
+        </a>
+
+        <a href='https://www.jalisco.gob.mx/es/gobierno/comunicados/protocolo-cero-para-prevenir-atender-sancionar-y-erradicar-el-acoso-y' target='_blank'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/manifiesto.jpg" />
           </div>
         </a>
       </Carousel>

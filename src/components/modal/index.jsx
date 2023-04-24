@@ -13,7 +13,7 @@ export const ModalAnuncio = (props) => {
       <Modal.Header closeButton>
       </Modal.Header>
       <Modal.Body>
-        <img style={{width:'70%', margin:'auto', display:'block'}} src='https://developer.tecmm.mx/web-tsj-designs/esquelaJuanCarlosArias.png'/>
+        <img style={{width:'70%', margin:'auto', display:'block'}} src='https://tecmm.edu.mx/web-tsj-designs/esquelaJuanCarlosArias.png'/>
       </Modal.Body>
 
     </Modal>

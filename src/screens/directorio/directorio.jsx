@@ -33,7 +33,7 @@ function Directorio() {
         },
 
         {   nombre: 'Jorge Enrique López Campos',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/DG-ENRIQUE.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/DG-ENRIQUE.jpg", 
             cargo: 'Director de Tecnologías de la Información y Comunicaciones', 
             telefono:"33-38-84-94-70", 
             correo:'enrique.lopez@tecmm.edu.mx', 
@@ -41,7 +41,7 @@ function Directorio() {
         },
 
         {   nombre: 'Francisco Gasca Acevedo', 
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/DG-FRANCISCO.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/DG-FRANCISCO.jpg", 
             cargo: 'Director de Planeación y Desarrollo', 
             telefono:"33-38-84-94-70", 
             correo:'francisco.gasca@tecmm.edu.mx', 
@@ -57,7 +57,7 @@ function Directorio() {
         },
 
         {   nombre: 'Ernesto Alejandro Castellanos Silva', 
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/DG-ERNESTO.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/DG-ERNESTO.jpg", 
             cargo: 'Abogado General', 
             telefono:"33-38-84-94-70", 
             correo:'ernesto.castellanos@tecmm.edu.mx', 
@@ -65,7 +65,7 @@ function Directorio() {
         },
 
         {   nombre: 'Juan Pablo Cerrillo Hernández', 
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/AR-JUAN-PABLO.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/AR-JUAN-PABLO.jpg", 
             cargo: 'Unidad Académica Arandas', 
             telefono:"01-348-78-32010", 
             correo:'juan.cerrillo@tecmm.edu.mx', 
@@ -73,7 +73,7 @@ function Directorio() {
         },
         
         {   nombre: 'Luis Eduardo Jiménez Herrera', 
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/CH-LUIS.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/CH-LUIS.jpg", 
             cargo: 'Unidad Académica Chapala', 
             telefono:"01-376-76-5-80-30", 
             correo:'luis.jimenez@tecmm.edu.mx', 
@@ -81,11 +81,11 @@ function Directorio() {
         },
 
         {   nombre: 'Edith Gabriela Gómez Espinoza', 
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/CO-EDITH.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/CO-EDITH.jpg", 
             cargo: 'Unidad Académica Cocula', 
             telefono:"377-773-0030", 
-            correo:'sergio.martinez@tecmm.edu.mx', 
-            mailTo:'mailto:sergio.martinez@tecmm.edu.mx'
+            correo:'edith.gomez@cocula.tecmm.edu.mx', 
+            mailTo:'mailto:edith.gomez@cocula.tecmm.edu.mx'
         },
 
         {   nombre: 'Roberto Durán Michel', 
@@ -97,7 +97,7 @@ function Directorio() {
         },
 
         {   nombre: 'Jorge Santiago Rodríguez González',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/LH-JORGE-SANTIAGO.jpg", 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/LH-JORGE-SANTIAGO.jpg", 
             cargo: 'Unidad Académica La Huerta', 
             telefono:"357-38-41884", 
             correo:'jorge.santiago@tecmm.edu.mx', 
@@ -105,7 +105,7 @@ function Directorio() {
         },
 
         {   nombre: 'Ma. Eugenia Amador Murguía',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/LM-MARIA-EUGENIA.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/LM-MARIA-EUGENIA.jpg",
             cargo: 'Unidad Académica Lagos de Moreno',
             telefono:"01-(474)-403-39-74",
             correo:'maria.amador@tecmm.edu.mx',
@@ -113,23 +113,23 @@ function Directorio() {
         },
 
         {   nombre: 'Rigoberto González Rodríguez',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/MA-RIGOBERTO.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/MA-RIGOBERTO.jpg",
             cargo: 'Unidad Académica Mascota',
             telefono:"01-388-38-60518",
             correo:'rigoberto.gonzalez@tecmm.edu.mx',
             mailTo:'mailto:rigoberto.gonzalez@tecmm.edu.mx'
         },
 
-        {   nombre: 'Ernesto Rosales Castañeda',
-            image:"https://www.tecmm.edu.mx/recursos/img/directores/ernesto_rosales.jpg",
+        {   nombre: 'Eduardo Daniel Miramontes García',
+            image:"https://www.tecmm.edu.mx/recursos/img/directores/no-foto.jpg",
             cargo: 'Unidad Académica Tequila',
             telefono:"37-47-42-72-88",
-            correo:'ernesto.rosales@tecmm.edu.mx',
-            mailTo:'mailto:ernesto.rosales@tecmm.edu.mx'
+            correo:'daniel.miramontes@tecmm.edu.mx',
+            mailTo:'mailto:daniel.miramontes@tecmm.edu.mx'
         },
 
         {   nombre: 'Gloria Luz Rodríguez Gil',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/TA-GLORIA.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/TA-GLORIA.jpg",
             cargo: 'Unidad Académica Tala',
             telefono:"384-73-33000",
             correo:'gloria.rodriguez@tecmm.edu.mx',
@@ -145,7 +145,7 @@ function Directorio() {
         },
 
         {   nombre: 'Alejandra Medina Lozano',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/PV-ALEJANDRA.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/PV-ALEJANDRA.jpg",
             cargo: 'Unidad Académica Puerto Vallarta',
             telefono:"322-226-56 00",
             correo:'alejandra.medina@tecmm.edu.mx',
@@ -153,7 +153,7 @@ function Directorio() {
         },
 
         {   nombre: 'José Rafael León Jacobo',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/ZA-RAFAEL-LEON.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/ZA-RAFAEL-LEON.jpg",
             cargo: 'Unidad Académica Zapopan',
             telefono:"36-82-11-80",
             correo:'rafael.leon@tecmm.edu.mx',
@@ -161,7 +161,7 @@ function Directorio() {
         },
 
         {   nombre: 'Héctor Dávalos Tinajero',
-            image:"https://developer.tecmm.mx/web-tsj-designs/directores/ZP-HECTOR.jpg",
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/ZP-HECTOR.jpg",
             cargo: 'Unidad Académica Zapotlanejo',
             telefono:"373-73-56060",
             correo:'hector.davalos@tecmm.edu.mx',
@@ -171,7 +171,7 @@ function Directorio() {
 
   return (
     <PrincipalContainer>
-        <TopBanner source={'https://developer.tecmm.mx/web-tsj-designs/topBanners/topBannerDirectorio.png'}/>
+        <TopBanner source={'https://tecmm.edu.mx/web-tsj-designs/topBanners/topBannerDirectorio.png'}/>
         {/* <div className='topHeaderContainer'>
             <h1>Directorio</h1>
         </div> */}

@@ -15,7 +15,7 @@ export const Footer = () => {
 
 
             <div className='redesImgContainer'>
-              <img src="https://developer.tecmm.mx/web-tsj-designs/redes.png" style={{ width: '60%' }}/>
+              <img src="https://tecmm.edu.mx/web-tsj-designs/redes.png" style={{ width: '60%' }}/>
             </div>
             
             <div className='visualCapabilitiesContainer'>
@@ -24,7 +24,7 @@ export const Footer = () => {
           </div>
           <iframe className="direccionMap" frameborder="0"  allowfullscreen="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.1014843087728!2d-103.47415072403652!3d20.70198099652712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428a9ef16c67019%3A0x110c6c4b5a95e2ba!2sTecnol%C3%B3gico%20Mario%20Molina!5e0!3m2!1ses!2smx!4v1575998888911!5m2!1ses!2smx"></iframe>
         </div>
-        <img src="https://developer.tecmm.mx/web-tsj-designs/footerBanner.jpg" style={{ width: '100%'}}/>
+        <img src="https://tecmm.edu.mx/web-tsj-designs/footerBanner.jpg" style={{ width: '100%'}}/>
     </div>
   )
 }
