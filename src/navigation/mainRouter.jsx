@@ -7,6 +7,7 @@ import Landing from '../screens/landing';
 import Noticia from '../screens/Noticia/index.jsx';
 
 import { PortalDenuncias } from '../screens/portalDenuncias';
+import { LoginHokmalab } from '../screens/loginHokmalab';
 
 export const MainRouter = () => {
   return (
@@ -18,7 +19,7 @@ export const MainRouter = () => {
         <Route path='/directorio' element={<Directorio/>}/>
         <Route path='/portalDenuncias' element={<PortalDenuncias/>}/>
         <Route path="/Noticia/:noticiaNombre" element={<Noticia/>}/>
-
+        <Route path="/diplomadoDocente" element={<LoginHokmalab/>}/>
     </Routes>
   )
 }
