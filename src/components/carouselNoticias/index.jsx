@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import {isMobile} from 'react-device-detect';
@@ -39,11 +39,14 @@ const ItemNoticia = ({noticia}) =>{
 
 export const CarouselNoticias = () => {
     const {noticias} = useGetNoticias() 
+    const [localNoticias, setLocalNoticias] = useState([])
 
 
 
     useEffect(() => {
-        console.log('noticias: ', noticias)
+        var localNoticias=noticias;
+        var reverseNoticias = [].concat(localNoticias).reverse()
+        setLocalNoticias(reverseNoticias)
     }, [noticias])
     
 
@@ -53,7 +56,7 @@ export const CarouselNoticias = () => {
         slidesPerView={ isMobile ? 2 : 5}
         spaceBetween={5}
         slidesPerGroup={1}
-        loop={true}
+        loop={false}
         loopFillGroupWithBlank={true}
 
         navigation={true}
@@ -61,7 +64,7 @@ export const CarouselNoticias = () => {
         className="mySwiper"
       >
 
-        {noticias.length>0 ? noticias.map(noticia =>{
+        {noticias.length>0 ? localNoticias.map(noticia =>{
             return(
                 <SwiperSlide>
                     <ItemNoticia noticia={noticia}/>
