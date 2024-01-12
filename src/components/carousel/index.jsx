@@ -19,6 +19,37 @@ export const CarouselLanding = () => {
         emulateTouch
         className='carouselLandingComponent'
       >
+
+        <a href='https://enecb.tecnm.mx/'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/ENECB.jpg" />
+          </div>
+        </a>
+
+        <a href='https://www.thincrs.com/artesanos-de-la-educacion'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/hub.jpg" />
+          </div>
+        </a>
+
+        <a href='https://tecmm.edu.mx/documentos/2023/lista-admitidos-agosto-23.pdf'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/aceptados-agosto-23.jpg" />
+          </div>
+        </a>
+
+        <a href='https://tecmm.edu.mx/diplomadoDocente'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/banner_diplomado.jpg" />
+          </div>
+        </a>
+
+        <a href='https://tecmm.edu.mx/Noticia/El-TecSuperiorJalisco-interconecta-con-el-Sistema-de-Descarga-de-T%C3%ADtulos-Electr%C3%B3nicos.' target='_blank'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/notaTitulos.jpg" />
+          </div>
+        </a>
+        
         <a href='https://developer.tecmm.mx:3318/files/Convocatoria%20PEDD2023.pdf' target='_blank'>
           <div>
             <img src="https://tecmm.edu.mx/img/carousel/estimuloDocente.jpg" />
@@ -45,7 +76,7 @@ export const CarouselLanding = () => {
       </Carousel>
 
       <div className='carouselButtonsContainer'>
-        <PrimaryButton color='#33179c' text='Unidades Académicas de Jalisco' link='https://tsj.tecmm.edu.mx/unidadesAcademicas' />
+        <PrimaryButton color='#33179c' text='Unidades Académicas de Jalisco' link='/UnidadesAcademicas' />
         &nbsp;
         &nbsp;
         <PrimaryButton color='#33179c' text='Oferta Académica' link='/OfertaAcademica'/>

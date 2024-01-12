@@ -72,11 +72,11 @@ function Directorio() {
             mailTo:'mailto:juan.cerrillo@tecmm.edu.mx'
         },
         
-        {   nombre: 'Luis Eduardo Jiménez Herrera', 
-            image:"https://tecmm.edu.mx/web-tsj-designs/directores/CH-LUIS.jpg", 
+        {   nombre: 'Javier Quezada', 
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/CH-JAVIER.jpg", 
             cargo: 'Unidad Académica Chapala', 
             telefono:"01-376-76-5-80-30", 
-            correo:'luis.jimenez@tecmm.edu.mx', 
+            correo:'', 
             mailTo:'mailto:luis.jimenez@tecmm.edu.mx'
         },
 
@@ -120,8 +120,8 @@ function Directorio() {
             mailTo:'mailto:rigoberto.gonzalez@tecmm.edu.mx'
         },
 
-        {   nombre: 'Eduardo Daniel Miramontes García',
-            image:"https://www.tecmm.edu.mx/recursos/img/directores/no-foto.jpg",
+        {   nombre: 'Eduardo Daniel Miramontes',
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/TE-DANIEL.jpg",
             cargo: 'Unidad Académica Tequila',
             telefono:"37-47-42-72-88",
             correo:'daniel.miramontes@tecmm.edu.mx',
@@ -136,12 +136,12 @@ function Directorio() {
             mailTo:'mailto:gloria.rodriguez@tecmm.edu.mx'
         },
 
-        {   nombre: 'Felipe Alfonso Ordoñez García',
-            image:"https://www.tecmm.edu.mx/recursos/img/directores/felipe_ordonez.jpg",
+        {   nombre: 'Brenda Yerania Ortega',
+            image:"https://tecmm.edu.mx/web-tsj-designs/directores/TM-YERA.jpg",
             cargo: 'Unidad Académica Tamazula',
             telefono:"358-10-30060",
-            correo:'alfonso.ordonez@tecmm.edu.mx',
-            mailTo:'mailto:alfonso.ordonez@tecmm.edu.mx'
+            correo:'',
+            mailTo:''
         },
 
         {   nombre: 'Alejandra Medina Lozano',
@@ -171,7 +171,8 @@ function Directorio() {
 
   return (
     <PrincipalContainer>
-        <TopBanner source={'https://tecmm.edu.mx/web-tsj-designs/topBanners/topBannerDirectorio.png'}/>
+        {/* <TopBanner source={'https://tecmm.edu.mx/web-tsj-designs/topBanners/topBannerDirectorio.png'}/> */}
+        <br/>
         {/* <div className='topHeaderContainer'>
             <h1>Directorio</h1>
         </div> */}

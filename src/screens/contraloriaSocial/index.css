@@ -1,0 +1,13 @@
+.infoContainer{
+    text-align: left;
+    margin:5%;
+}
+
+.infoContainer h1{
+    font-family: 'madaniArabicLight';
+    color:var(--navyBlue)
+}
+
+.infoContainer p{
+    font-family: 'madaniArabicExtraLight';
+}

@@ -14,14 +14,13 @@ export const FooterLinks = () => {
                 <a class="tag" target="_blank" href="https://sicyt.jalisco.gob.mx/" >OFERTA ACADÉMICA</a>
                 <a class="tag" target="_blank" href="http://tecmm.edu.mx/calendarios/CALENDARIO ESCOLAR 22-23.pdf">CALENDARIO</a>
                 <a class="tag" target="_blank" href="http://tecmm.edu.mx/normatividad">NORMATIVIDAD</a>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/transparencia">TRANSPARENCIA</a>
                 <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/unidadesAcademicas">UNIDADES ACADÉMICAS</a>
                 <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/modeloAcademico">MODELO ACADÉMICO</a>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/rectoria">ORGANIGRAMA</a>
+                <a class="tag" target="_blank" href="https://www.tecmm.edu.mx/directorio">ORGANIGRAMA</a>
                 <a class="tag" target="_blank" href="https://developer.tecmm.mx:3318/files/Programa-Anual-Desarrollo-Archivistico-2023.pdf">{'PROGRAMA ANUAL DE DESARROLLO ARCHIVISTICO'}</a>
                 <a class="tag" target="_blank" href="https://www.conacyt.mx">CONACYT</a>
                 <a class="tag" target="_blank" href="http://187.174.80.181/compras/">LICITACIONES VENCIDAS</a>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/contraloriaSocial">CONTRALORÍA SOCIAL</a>
+                <a class="tag" target="_blank" href="https://www.tecmm.edu.mx/contraloriaSocial">CONTRALORÍA SOCIAL</a>
                 <a class="tag" target="_blank" href="https://tecnm.occ.com.mx/Bolsa_Trabajo">BOLSA DE TRABAJO</a>
                 <a class="tag" target="_blank" href="/">POSGRADOS</a>
                 <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/juntasGobierno">JUNTAS DE GOBIERNO</a>
@@ -41,7 +40,7 @@ export const FooterLinks = () => {
             </div>
 
             <div className='columnTestContainer'>
-                <a class="tag" target="_blank" href="http://tecmm.edu.mx/calendarios/CALENDARIO ESCOLAR 22-23.pdf">CALENDARIO</a>
+                <a class="tag" target="_blank" href="http://tecmm.edu.mx/documentos/calendarioActual.pdf">CALENDARIO</a>
                 <br/>
                 <br/>
                 <br/>
@@ -50,7 +49,7 @@ export const FooterLinks = () => {
             </div>
 
             <div className='columnTestContainer'>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/transparencia">TRANSPARENCIA</a>
+                <a class="tag" target="_blank" href="https://www.tecmm.edu.mx/OfertaAcademica">OFERTA ACADEMICA</a>
                 <br/>
                 <br/>
                 <br/>
@@ -68,7 +67,7 @@ export const FooterLinks = () => {
             </div>
 
             <div className='columnTestContainer'>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/rectoria">ORGANIGRAMA</a>
+                <a class="tag" target="_blank" href="https://www.tecmm.edu.mx/directorio">ORGANIGRAMA</a>
                 <br/>
                 <br/>
                 <br/>
@@ -82,7 +81,7 @@ export const FooterLinks = () => {
                 <br/>
                 <br/>
                 <br/>
-                <a class="tag" target="_blank" href="https://www.tsj.tecmm.edu.mx/contraloriaSocial">CONTRALORÍA SOCIAL</a>
+                <a class="tag" target="_blank" href="https://www.tecmm.edu.mx/contraloriaSocial">CONTRALORÍA SOCIAL</a>
             </div>
 
             <div className='columnTestContainer'>

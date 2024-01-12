@@ -1,12 +1,15 @@
 :root{
-  --gold:#A7823B;
-  --navyBlue:#33179c;
-  --blue:#308fff;
+  --blue: #308FFF;
   --green:#54c98f;
-  --red:#ff4d63;
   --orange:#ffae31;
+  --navyBlue:#33179c;
+  --red:#ff4d63;
+  --gold:#A7823B;
   --grey:#d8d8d8;
 }
+/* 
+VIDA ESTUDIANTIL>CALENDARIO ESCOLAR
+QUIENES SOMOS > IDENTIDAD */
 
 @font-face {
   font-family: 'madaniArabicBlack';

@@ -11,6 +11,8 @@ export const Footer = () => {
               <h3>DIRECCIÓN GENERAL</h3>
               <p>Camino Arenero 1101, Col. El Bajio</p>
               <p>Zapopan, Jalisco, C.P. 45017</p>
+              <p>Tel: 33-36-82-11-80</p>
+              <p>Tel: 33-38-84-94-70</p>
             </div>
 
 

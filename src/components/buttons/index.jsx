@@ -8,7 +8,7 @@ export const PrimaryButton = ({color, onClick, text, link}) => {
       
       onClick={
         link ? 
-          event => window.open(link, '_blank')
+          event => window.location.href=link
           // window.location.href=link
           
         :

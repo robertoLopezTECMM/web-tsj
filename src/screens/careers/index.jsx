@@ -1,11 +1,13 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { PrincipalContainer } from '../../components/containers/principalContainer'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Stack from 'react-bootstrap/Stack';
 import Col from 'react-bootstrap/Col';
+import { useParams } from "react-router-dom";
 
 export const Careers = () => {
+    const {campusId} = useParams()
     const [careers, setCareers] = useState([
         {imgUrl:'https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-01.jpg', linkCareer:'https://tecmm.edu.mx/Carrera/Ingenieria-en-Gestion-Empresarial-en-Linea'},
         {imgUrl:'https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-02.jpg', linkCareer:'https://tecmm.edu.mx/Carrera/Maestria-en-Sistemas-Computacionales'},
@@ -40,6 +42,11 @@ export const Careers = () => {
         {imgUrl:'https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-24.jpg', linkCareer:'https://tecmm.edu.mx/Carrera/Licenciatura-en-Administracion'},
     ])
 
+    useEffect(() => {
+        console.log("CampusId: ", campusId)
+    }, [])
+    
+
   return (
     <PrincipalContainer>
         <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/headerOfertaAcademica.jpg"/>
@@ -47,19 +54,19 @@ export const Careers = () => {
             <Stack gap={3}>
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Gestion-Empresarial-en-Linea' target='_blank'>
+                        <a href={`/OfertaAcademica/Ingenieria-en-Gestion-Empresarial-en-Linea`}>
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-01.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Maestria-en-Sistemas-Computacionales' target='_blank'>
+                        <a href='/OfertaAcademica/Maestria-en-Sistemas-Computacionales' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-02.jpg"/> 
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Maestria-en-Administracion' target='_blank'>
+                        <a href='/OfertaAcademica/Maestria-en-Administracion' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-03.jpg"/> 
                         </a>
                     </Col>
@@ -67,19 +74,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Innovacion-Agricola-Sustentable' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Innovacion-Agricola-Sustentable' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-04.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Administracion' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Administracion' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-05.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Ambiental' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Ambiental' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-06.jpg"/>
                         </a>
                     </Col>
@@ -87,19 +94,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Animacion-Digital-y-Efectos-Visuales' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Animacion-Digital-y-Efectos-Visuales' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-07.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Arquitectura' target='_blank'>
+                        <a href='/OfertaAcademica/Arquitectura' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-08.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Civil' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Civil' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-09.jpg"/> 
                         </a>
                     </Col>
@@ -107,19 +114,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Contador-Publico' target='_blank'>
+                        <a href='/OfertaAcademica/Contador-Publico' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-10.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Electromecanica' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Electromecanica' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-11.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Electronica' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Electronica' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-12.jpg"/>
                         </a>
                     </Col>
@@ -127,19 +134,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Gestion-Empresarial' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Gestion-Empresarial' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-13.jpg"/>
                         </a>
                     </Col>
                     
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Gastronomia' target='_blank'>
+                        <a href='/OfertaAcademica/Gastronomia' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-14.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Energias-Renovables' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Energias-Renovables' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-15.jpg"/>
                         </a>
                     </Col>
@@ -147,19 +154,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Industrial' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Industrial' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-16.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Industrias-Alimentarias' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Industrias-Alimentarias' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-17.jpg"/>
                         </a>
                     </Col>
 
                     <Col> 
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Informatica' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Informatica' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-18.jpg"/>
                         </a>
                     </Col>
@@ -167,19 +174,19 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Sistemas-Automotrices' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Sistemas-Automotrices' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-19.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Sistemas-Computacionales' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-en-Sistemas-Computacionales' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-20.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-Mecatronica' target='_blank'>
+                        <a href='/OfertaAcademica/Ingenieria-Mecatronica' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-21.jpg"/>
                         </a>
                     </Col>
@@ -187,21 +194,18 @@ export const Careers = () => {
 
                 <Row>
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Ingenieria-en-Tecnologias-de-la-Informacion-y-Comunicaciones' target='_blank'>
-                            <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-22.jpg"/>
-                        </a>
-                    </Col>
-
-                    <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Licenciatura-en-Turismo' target='_blank'>
+                        <a href='/OfertaAcademica/Licenciatura-en-Turismo' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-23.jpg"/>
                         </a>
                     </Col>
 
                     <Col>
-                        <a href='https://tsj.tecmm.edu.mx/Carrera/Licenciatura-en-Administracion' target='_blank'>
+                        <a href='/OfertaAcademica/Licenciatura-en-Administracion' >
                             <img style={{width:'100%'}} src="https://tecmm.edu.mx/web-tsj-designs/ofertaAcademica/Carreras-24.jpg"/>
                         </a>
+                    </Col>
+                    <Col>
+
                     </Col>
                 </Row>
             </Stack>

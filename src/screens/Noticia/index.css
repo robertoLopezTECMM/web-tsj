@@ -46,3 +46,24 @@
     transition: transform .2s; /* Animation */
     cursor:pointer;
   }
+
+  .cardNewDirectorContainer{
+    text-align: center;
+    width:300px; 
+    justify-content:center;
+    margin-top: 5%;
+    margin:auto
+  }
+
+  .cardNewDirectorContainer h3{
+    font-family: 'madaniArabicBold';
+    font-size: 1.5rem;
+  }
+
+  .cardNewDirectorContainer h4{
+    font-family: 'madaniArabicLight';
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 200;
+  }
+
