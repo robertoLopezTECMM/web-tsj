@@ -20,6 +20,18 @@ export const CarouselLanding = () => {
         className='carouselLandingComponent'
       >
 
+        <a href='https://tecmm.edu.mx/documentos/2024/admitidosEne2024.pdf'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/admitidosEne2024.jpeg" />
+          </div>
+        </a>
+
+        <a href='https://tecmm.edu.mx/diplomadoDocente'>
+          <div>
+            <img src="https://tecmm.edu.mx/img/carousel/banner_diplomado.jpg" />
+          </div>
+        </a>
+
         <a href='https://enecb.tecnm.mx/'>
           <div>
             <img src="https://tecmm.edu.mx/img/carousel/ENECB.jpg" />
@@ -32,17 +44,13 @@ export const CarouselLanding = () => {
           </div>
         </a>
 
-        <a href='https://tecmm.edu.mx/documentos/2023/lista-admitidos-agosto-23.pdf'>
+        {/*<a href='https://tecmm.edu.mx/documentos/2023/lista-admitidos-agosto-23.pdf'>
           <div>
             <img src="https://tecmm.edu.mx/img/carousel/aceptados-agosto-23.jpg" />
           </div>
-        </a>
+        </a>*/}
 
-        <a href='https://tecmm.edu.mx/diplomadoDocente'>
-          <div>
-            <img src="https://tecmm.edu.mx/img/carousel/banner_diplomado.jpg" />
-          </div>
-        </a>
+
 
         <a href='https://tecmm.edu.mx/Noticia/El-TecSuperiorJalisco-interconecta-con-el-Sistema-de-Descarga-de-T%C3%ADtulos-Electr%C3%B3nicos.' target='_blank'>
           <div>
